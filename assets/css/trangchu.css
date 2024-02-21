@@ -1,0 +1,1065 @@
+/* Start */
+/* Logo- header- hotline- email */
+
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5efef;
+  padding: 10px;
+}
+
+.navbar-left {
+  flex-grow: 1;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.navbar-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(10deg);
+  width: 7%;
+}
+
+/* CSS Tạo thanh logo, email, hotline...*/
+.text {
+  color: rgb(10, 14, 10);
+}
+
+/*   TẠO THANH NAV  trang chủ, dịch vụ, tin tức*/
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+/* Thanh tạo ảnh logo ridex */
+.container .logo {
+  width: 250px;
+  /* Chỉnh kích thước chiều rộng */
+  height: auto;
+  /* Tự động tính toán chiều cao dựa trên tỷ lệ */
+}
+
+.contact-info {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+/* CODE tạo thanh nav */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  padding: 10px;
+  width: 60%;
+  transform: skew(10deg);
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.navbar a.active {
+  font-weight: bold;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-vector-search-icon-png-image_3783210.jpg);
+  background-size: cover;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: orange;
+  border: none;
+  border-radius: 3px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.car-info {
+  margin-left: 10px;
+}
+
+.car-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.car-size {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Tạo ảnh bìa chèn ô tô BOOK YOUR TAXI */
+.section-onlinecar {
+  background-image: url('/assets/images/bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 2500px;
+  position: relative;
+  padding: 200px 0;
+}
+
+/* code đường chéo xe ô tô BOOK YOU TAXI */
+.section-onlinecar {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-onlinecar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 900%;
+  transform: skew(-30deg);
+  background-color: #ff9900;
+
+}
+
+.section-onlinecar .img-car {
+  position: absolute;
+  width: 650px;
+  right: -150px;
+  top: -100px;
+}
+
+/* nút button Book you tatxi */
+.my-button {
+  background-color: #da7b0f;
+  border: none;
+  color: rgb(240, 240, 228);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.my-heading {
+  color: rgb(15, 15, 19);
+}
+
+/*  Code chi cột về chúng tôi*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1,
+p {
+  flex-basis: 100%;
+}
+
+/* CSS */
+.my-heading {
+  color: rgb(222, 222, 226);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 170px;
+  height: auto;
+}
+
+/*  Code CSS VỀ CHÚNG TÔI */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1,
+p {
+  flex-basis: 100%;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 220px;
+  height: auto;
+}
+
+/* code css tạo di chuyển ảnh tròn */
+.section-online-vechungtoi {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.Image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+/* Tạo css chuyển động ảnh tròn */
+
+
+.Image {}
+
+/*  */
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.image-container .Image {
+  left: 304px;
+  top: 37px;
+  width: 15%;
+  /* Loại bỏ hoạt hình mặc định */
+}
+
+.ExperienceText {
+  animation: rotate 3s infinite linear;
+  /* Áp dụng hoạt hình vòng quay */
+}
+
+.image-animation {
+  position: absolute;
+  left: 255px;
+  animation-name: rotateImage;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* code css tạo đường chéo về chứng tôi */
+
+
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 20%;
+  width: 50%;
+  height: 130%;
+  transform: skew(-20deg);
+  background-color: #ff9900;
+  z-index: -1;
+}
+
+
+
+
+
+/* CODE DỊCH VỤ NỖI BẬT */
+.overlay-image {
+  animation-play-state: paused;
+}
+
+.cover-image {
+  background-image: url("/assets/images/bg-1.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(227, 215, 215);
+}
+
+.cover-image .text {
+  font-size: 36px;
+}
+
+.cover-image .text {
+  color: #f7eded;
+  /* Màu chữ trắng */
+}
+
+.container .card h2 {
+  color: #0a0909;
+  /* Màu chữ trắng */
+}
+
+.cover-image p {
+  color: #c6b9b9;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 360px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-banner {}
+
+.car-in-card {
+  /* width: 150%;
+  border-radius: 8px; */
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.card p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(220, 117, 20);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(190, 97, 17);
+}
+
+*/
+/*  */
+/* ĐẶT XE NHANH */
+
+.section-online-booking h3 {
+  color: #e8dede;
+  /* Màu chữ trắng */
+}
+
+.section-online-booking::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  background-color: #da7b0f;
+}
+
+/* clip path cắt ảnh */
+.section-online-booking::after {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 80px;
+  background-color: #f4f5f8;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+
+}
+
+.section-online-booking .img-car {
+  position: absolute;
+  width: 650px;
+  left: -300px;
+  top: -100px;
+
+
+}
+
+.section-online-booking {
+  background-color: #1c1c1c;
+  background-image: url('/assets/images/texture.png');
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0;
+
+}
+/* màu button */
+
+
+
+/* TẠO DÒNG CHỮ CHOOSE TATXI */
+.centered-text {
+  text-align: center;
+}
+
+.centered-text h1 {
+  color: #130e0e;
+}
+
+/*  TẠO CART ẢNH CHOOSEE TAXI */
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cart-image {
+  margin-right: 20px;
+}
+
+.cart-image img {
+  width: 250px;
+  height: 150px;
+}
+
+.cart-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-title {
+  margin: 0;
+}
+
+.cart-price,
+.cart-fee,
+.cart-seats {
+  margin: 5px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #d6b10b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #ac6022;
+}
+
+.cart-title {
+  color: black;
+}
+
+/*  Get the Ridek Mobile app and Start Your Journey!*/
+/* tạo dòng chữ get the ridex mobile */
+.section-online-book {
+  /* Các thuộc tính CSS khác cho phần tử .section */
+  /* background-image: url("/assets/images/taxi-background.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: right; */
+}
+
+.xeoto {
+  margin-left: 170px;
+}
+
+.people {
+  margin-right: 201px;
+  width: 180px;
+  height: 392px;
+  margin-top: 56px;
+}
+
+.demo1 {
+  background-image: url("/assets/images/taxi-background.png");
+  background-size: contain;
+  width: 889px;
+  height: 550px;
+  right: 156px;
+  top: 47px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.section-online-book {
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  margin-right: 70px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  width: 50px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.image-button {
+  margin: 0 20px;
+}
+
+.car-image {
+  width: 158px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.phone-image {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.container .row .col-sm-6 h2 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+/* nút button tải google play xuống hàng */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-button {
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: cover;
+}
+
+.image-button img {
+  max-width: 200%;
+  height: auto;
+}
+
+.overlay-image {
+  position: relative;
+  left: 350px;
+  top: -403px;
+  /* Giá trị số âm để di chuyển hình ảnh lên trên */
+}
+
+/* CODE CSS HƠN 1000 + Tạo logo bảng */
+.section-online-Hon1000 {}
+
+.alert-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+.custom-heading {
+  color: blue;
+  font-size: 24px;
+}
+
+.alert-box p {
+  color: rgb(24, 20, 20);
+}
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.company-table td {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.logo {
+  width: 30px;
+  height: 50px;
+}
+
+.company-name {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.company-description {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*  */
+.container {
+  background-image: url("");
+  background-size: 50%;
+  background-position: center;
+}
+
+h1 {
+  color: rgb(15, 11, 11);
+  text-align: center;
+}
+
+/* hơn 1ooo khach hang */
+.orange-table {
+  background-color: orange;
+  padding: 20px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.left-column {
+  margin-left: 20px;
+}
+
+.table-heading {
+  color: white;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.company-info {
+  color: white;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* call us now */
+.section-online-thepeople {
+  background-color: #1c1c1c;
+  background-image: url('/assets/images/texture.png');
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* clip path cắt ảnh */
+.section-online-thepeople {
+  position: relative;
+  background-color: #1c1c1c;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.section-online-thepeople::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 200px;
+  background-color: #f4f5f8;
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+.section-online-thepeople::before {
+  content: 0;
+  position: absolute;
+  width: 750px;
+  left: -400px;
+  top: -200px;
+}
+
+.title {
+  color: rgb(227, 211, 211);
+  /* Thay đổi màu chữ thành màu đỏ */
+}
+
+.img-car {
+  width: 300px;
+  /* Đặt chiều rộng hình ảnh thành 200 pixel */
+  height: auto;
+  /* Đặt chiều cao tự động, giữ nguyên tỷ lệ khung hình */
+}
+
+/* code tạo tin tức sự kiện chữ màu */
+.card-title {
+  color: rgb(9, 8, 8);
+}
+
+.card-text {
+  color: rgb(9, 9, 11);
+}
+
+/* Tạo footer */
+/* Thiết lập ảnh nền */
+.background-image {
+  background-color: #1c1c1c;
+  background-image: url('/assets/images/city-skiline.png');
+
+  background-position: center;
+  height: 600px;
+}
+
+/* Lớp che phủ */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.contact-info,
+.opening-hours,
+.links,
+.newsletter {
+  margin-bottom: 20px;
+}
+
+.links ul {
+  padding: 0;
+  list-style: none;
+}
+
+.links ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.newsletter input[type="email"],
+.newsletter button {
+  padding: 10px;
+}
+
+.newsletter button {
+  background-color: #fff;
+  color: #0a0a0a;
+  border: none;
+  cursor: pointer;
+}
+
+/* Code chữ màu trắng trang footer */
+.background-image,
+.overlay,
+.container,
+.contact-info h1,
+.contact-info p,
+.opening-hours h3,
+.opening-hours p,
+.links h3,
+.links ul li,
+.newsletter h3,
+.newsletter input[type="email"],
+.newsletter button {
+  color: #fff;
+}
+
+/* chuyển động xe ô tô */
+
+/* code css tạo chuyển động xe ô tô */
+
+
+
+.icon-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.icon-car .car1 {
+  animation: carAnimation 6s linear infinite;
+}
+
+@keyframes carAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+.icon-car .car2 {
+  animation: carAnimation2 6s linear infinite;
+}
+
+@keyframes carAnimation2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.icon-car .car3 {
+  animation: carAnimation3 6s linear infinite;
+}
+
+@keyframes carAnimation3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+/* dich vu noi bac  tạo card*/
+.card-top {
+  position: relative;
+}
+
+.card-image1 {
+  width: 320px;
+  height: 275px;
+  object-fit: cover;
+}
+
+.card-image2 {
+  position: absolute;
+  bottom: -26px;
+  right: -13px;
+  width: 190px;
+  transition: 0.5s all;
+  transform: scale(1);
+}
+
+.card-image2:hover {
+  transform: scale(1.1);
+}
+.card-bottom {
+  margin-top: 30px;
+}
+.nutxemthem{
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  background-color: #da7b0f;
+  padding: 10px 15px;
+  display: flex;
+    width: 113px;
+
+
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(227, 215, 215);
+   
+}
+.nutxemthem:hover{
+  text-decoration: none;
+}
+
+
+
+
