@@ -604,7 +604,7 @@ p {
   margin-top: 56px;
 }
 
-.demo1 {
+.demo2 {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/taxi-background.png");
   background-size: contain;
   width: 889px;
@@ -613,7 +613,10 @@ p {
   top: 47px;
   position: relative;
   background-repeat: no-repeat;
-}
+} 
+
+
+
 .upper-alert-box{
   height: 70px;
 }
