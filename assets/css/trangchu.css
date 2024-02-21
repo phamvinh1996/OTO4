@@ -606,7 +606,7 @@ p {
 }
 
 .demo1 {
-  background-image: url("/assets/images/taxi-background.png");
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/taxi-background.png");
   background-size: contain;
   width: 889px;
   height: 550px;
