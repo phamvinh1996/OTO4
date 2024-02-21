@@ -874,7 +874,7 @@ h1 {
 /* Thiết lập ảnh nền */
 .background-image {
   background-color: #1c1c1c;
-  background-image: url('/assets/images/city-skiline.png');
+  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/city-skiline.png');
 
   background-position: center;
   height: 600px;
