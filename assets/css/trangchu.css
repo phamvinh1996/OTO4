@@ -494,7 +494,7 @@ p {
   height: 80px;
   background-color: #f4f5f8;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
-
+  
 }
 
 .section-online-booking .img-car {
@@ -502,7 +502,6 @@ p {
   width: 650px;
   left: -300px;
   top: -100px;
-
 
 }
 
@@ -615,7 +614,9 @@ p {
   position: relative;
   background-repeat: no-repeat;
 }
-
+.upper-alert-box{
+  height: 70px;
+}
 .section-online-book {
   background-color: #f2f2f2;
   padding: 30px;
@@ -719,8 +720,16 @@ h2 {
   background-color: white;
   padding: 20px;
   border: 1px solid gray;
+  position: relative;
+  top: 30px
+  
 }
-
+.col-alert-box{
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
+   /* background-size: contain; */
+   width: 1000px;
+   height: 800px;
+ }
 .custom-heading {
   color: blue;
   font-size: 24px;
@@ -768,10 +777,25 @@ h1 {
   text-align: center;
 }
 
+
+
+/* ảnh bìa 1000 */
+.demo1 {
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
+  background-size: contain;
+  width: 500px;
+  height: 300px;
+  right: 0px;
+  top: 0px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
 /* hơn 1ooo khach hang */
 .orange-table {
   background-color: orange;
-  padding: 20px;
+  padding: 70px;
+  
   border: 1px solid gray;
   display: flex;
   align-items: center;
