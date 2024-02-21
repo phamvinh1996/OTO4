@@ -382,7 +382,7 @@ p {
 }
 
 .cover-image {
-  background-image: url("/assets/images/bg-1.jpg");
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg");
   background-position: left;
   background-repeat: no-repeat;
   height: 500px;
