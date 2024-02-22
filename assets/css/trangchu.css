@@ -373,15 +373,10 @@ p {
   z-index: -1;
 }
 
-
-
-
-
 /* CODE DỊCH VỤ NỖI BẬT */
 .overlay-image {
   animation-play-state: paused;
 }
-
 .cover-image {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg");
   background-position: left;
@@ -403,21 +398,18 @@ p {
 .cover-image .text {
   color: #f7eded;
   /* Màu chữ trắng */
-}
+ } 
 
 .container .card h2 {
   color: #0a0909;
   /* Màu chữ trắng */
-}
+} 
 
 .cover-image p {
   color: #c6b9b9;
   font-size: 18px;
   margin-top: 10px;
 }
-
-
-
 .container {
   display: flex;
   justify-content: space-between;
@@ -430,14 +422,14 @@ p {
   border-radius: 8px;
 }
 
-.card-banner {}
+.card-banner {} 
 
-.car-in-card {
-  /* width: 150%;
-  border-radius: 8px; */
-}
+ .car-in-card { 
+  width: 150%;
+  border-radius: 8px; 
+ } 
 
-.card h2 {
+ .card h2 {
   font-size: 22px;
   margin-left: 10px;
   text-align: left;
@@ -463,9 +455,8 @@ p {
 
 .button:hover {
   background-color: rgb(190, 97, 17);
-}
+}  
 
-*/
 /*  */
 /* ĐẶT XE NHANH */
 
@@ -970,6 +961,11 @@ h1 {
   cursor: pointer;
 }
 
+/* code css màu chữ button */
+button[type="submit"] {
+  background-color: orange;
+  color: #fff;
+}
 /* Code chữ màu trắng trang footer */
 .background-image,
 .overlay,
@@ -983,7 +979,7 @@ h1 {
 .newsletter h3,
 .newsletter input[type="email"],
 .newsletter button {
-  color: #fff;
+  color: #f5efef;
 }
 
 /* chuyển động xe ô tô */
