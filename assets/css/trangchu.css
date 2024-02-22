@@ -1,7 +1,5 @@
 /* Start */
 /* Logo- header- hotline- email */
-
-
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -302,14 +300,10 @@ p {
   width: 50%;
   z-index: 1;
 }
-
 /* Tạo css chuyển động ảnh tròn */
-
-
 .Image {}
 
 /*  */
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -351,8 +345,6 @@ p {
     transform: rotate(360deg);
   }
 }
-
-
 /* code css tạo đường chéo về chứng tôi */
 
 
@@ -506,9 +498,6 @@ p {
 
 }
 /* màu button */
-
-
-
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
 .centered-text {
   text-align: center;
@@ -781,9 +770,6 @@ h1 {
   color: rgb(15, 11, 11);
   text-align: center;
 }
-
-
-
 /* ảnh bìa 1000 */
 .upper-alert-box{
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
@@ -962,10 +948,20 @@ h1 {
 }
 
 /* code css màu chữ button footer */
-button[type="submit"] {
-  background-color: orange;
-  color: #fff;
+
+
+
+:root {
+  --button-color: orange;
+  --button-text-color: white;
 }
+
+button[type="submit"] {
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  /* Các thuộc tính khác cho button */
+}
+
 /* Code chữ màu trắng trang footer */
 .background-image,
 .overlay,
@@ -985,9 +981,6 @@ button[type="submit"] {
 /* chuyển động xe ô tô */
 
 /* code css tạo chuyển động xe ô tô */
-
-
-
 .icon-car {
   display: flex;
   justify-content: space-between;
@@ -1036,15 +1029,6 @@ button[type="submit"] {
     transform: translateX(-100%);
   }
 }
-
-
-
-
-
-
-
-
-
 /* dich vu noi bac  tạo card*/
 .card-top {
   position: relative;
