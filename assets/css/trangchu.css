@@ -481,7 +481,7 @@ p {
   bottom: 0;
   left: 0;
   width: 300px;
-  background-color: #da7b0f;
+   background-color: #da7b0f; 
 }
 
 /* clip path cắt ảnh */
@@ -570,19 +570,29 @@ p {
 .btn {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #d6b10b;
-  color: white;
+   /* background-color: #d6b10b; */
+  color: rgb(240, 228, 228);
   text-decoration: none;
   border-radius: 4px;
 }
 
 .btn-primary:hover {
-  background-color: #ac6022;
+  background-color: #e9e3df;
 }
 
 .cart-title {
   color: black;
 }
+
+
+.btn-primary {
+  color: #101114;
+  background-color: #f0e6e6;
+ width: 40%;
+ height: 50%;
+
+}
+
 
 /*  Get the Ridek Mobile app and Start Your Journey!*/
 /* tạo dòng chữ get the ridex mobile */
@@ -735,7 +745,7 @@ h2 {
    height: 800px;
  }
 .custom-heading {
-  color: blue;
+  color: rgb(34, 34, 168);
   font-size: 24px;
 }
 
