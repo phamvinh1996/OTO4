@@ -15,6 +15,7 @@ document.getElementById("searchBtn").addEventListener("click", function() {
 document.addEventListener('DOMContentLoaded', function() {
   var iconContainer = document.querySelector('.icon-container');
   var carInfo = document.getElementById('carInfo');
+  carInfo.style.display = 'none'; // Ẩn carInfo ban đầu
 
   iconContainer.addEventListener('click', function() {
     carInfo.style.display = carInfo.style.display === 'none' ? 'block' : 'none';
