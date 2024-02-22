@@ -1115,45 +1115,7 @@ h1 {
   color: #ccc;
   margin: 0;
 }
-
-/* nav footer */
-
-
-/* .hotline-nav {
-  float: right;
-  background-color: orange;
-  padding: 50px;
-
-}
-
-.hotline-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.hotline-nav ul li {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.hotline-nav ul li:first-child {
-  margin-left: 0;
-}
-
-.hotline-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.hotline-nav ul li a:hover {
-  color: #fff;
-  text-decoration: underline;
-} */
-
-
-
-
+/* thanh nav màu cam footer */
 footer {
   position: relative;
 }
