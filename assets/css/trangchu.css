@@ -842,8 +842,10 @@ h1 {
   border: 1px solid gray;
   display: flex;
   align-items: center;
+/* đường ghạch chéo màu cam */
+  background-image: repeating-linear-gradient(45deg,#f7a20f 0,#f7a20f 2px,transparent 0,transparent 50%);
+  background-size: 10px 10px;
 }
-
 .right-column {
   flex: 1;
 }
