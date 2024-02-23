@@ -684,6 +684,7 @@ h2 {
 p {
   font-size: 20px;
   margin-bottom: 20px;
+  color: #000;
 }
 
 .image-row {
@@ -887,10 +888,10 @@ h1 {
   width: 50px;
   height: 50px;
 }
-/* màu thẻ chữ p */
-p {
-  color: white;
-}
+/* màu thẻ chữ p *
+
+
+
 /* code css chữ và ảnh call us */
 .icon-text {
   display: flex;
@@ -932,10 +933,13 @@ p {
 }
 
 .title {
-  color: rgb(227, 211, 211);
+  color: rgb(224, 212, 212);
   /* Thay đổi màu chữ thành màu đỏ */
 }
-
+/* màu chữ p call us  */
+.white-text {
+  color: white;
+}
 .img-car {
   width: 300px;
   /* Đặt chiều rộng hình ảnh thành 200 pixel */
