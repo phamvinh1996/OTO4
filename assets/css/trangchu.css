@@ -1122,6 +1122,9 @@ footer {
   transform: skewX(-10deg);
   transform-origin: bottom right;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+/* tạo thanh nav có đường viền */
+  background-image: repeating-linear-gradient(45deg,#f7a20f 0,#f7a20f 2px,transparent 0,transparent 50%);
+  background-size: 10px 10px;
 }
   
 
