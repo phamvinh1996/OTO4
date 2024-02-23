@@ -838,7 +838,6 @@ h1 {
 .orange-table {
   background-color: orange;
   padding: 70px;
-  
   border: 1px solid gray;
   display: flex;
   align-items: center;
