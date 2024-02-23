@@ -467,6 +467,14 @@ p {
    background-color: #da7b0f; 
 }
 
+/* đặt màu css button */
+.btn.btn-primary {
+  background-color: white;
+}
+/* chữ màu đen button */
+.btn.btn-primary {
+  color: black;
+}
 /* clip path cắt ảnh */
 .section-online-booking::after {
 
