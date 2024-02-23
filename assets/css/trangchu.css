@@ -888,6 +888,21 @@ h1 {
   height: 50px;
 }
 
+
+/* code css chữ và ảnh call us */
+.icon-text {
+  display: flex;
+  align-items: center;
+  color: rgb(166, 201, 14);
+  font-size: 28px;
+  
+}
+
+.icon-text img {
+  width: 70px; /* Điều chỉnh kích thước của ảnh icon tại đây */
+  height: 70px;
+  margin-right: 5px; /* Điều chỉnh khoảng cách giữa ảnh icon và chữ tại đây */
+}
 /* clip path cắt ảnh */
 .section-online-thepeople {
   position: relative;
