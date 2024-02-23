@@ -219,19 +219,12 @@
   margin-right: 50px;
 }
 /* nút button */
-
-
 .nav-bar {
   display: flex;
   justify-content: center;
   align-items: center;
  
 }
-
-
-
-
-
 /* code đường chéo xe ô tô BOOK YOU TAXI */
 .section-onlinecar {
   position: relative;
@@ -425,7 +418,11 @@ p {
   text-align: center;
   color: rgb(227, 215, 215);
 }
-
+/* carrt anhr chen anh banner dich vu noi bat */
+.cart-service{ 
+  position: relative;
+  bottom: 140px;
+}
 .cover-image .text {
   font-size: 36px;
 }
