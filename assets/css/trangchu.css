@@ -181,15 +181,11 @@
 }
 
 /* Tạo ảnh bìa chèn ô tô BOOK YOUR TAXI */
- /* .section-onlinecar {
-  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: 2500px;
-  position: relative;
-  padding: 200px 0;
- } */
+
 /*  */
-.section-onlinecar {
+
+
+  /* .section-onlinecar {
   background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -197,7 +193,7 @@
   padding: 200px 0;
 }
 
-.nav-bar {
+  .nav-bar {
   position: absolute;
   bottom: 20px;
   top: 240px;
@@ -217,16 +213,83 @@
 
 .nav-prev, .nav-next {
   margin-right: 50px;
+}        */
+
+/* dùng thư viện di chuyển trang book you */
+
+
+.carousel {
+  width: 100%;
+  height: 500px;
 }
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-60%);
+  width: 60%;
+  padding-left: 15px;
+}
+
+.carousel-caption h1 {
+  margin-bottom: 20px;
+  color: #c6b9b9;
+}
+.carousel-caption .img-car {
+  width: 150%; /* Kích thước chiều rộng của hình ảnh sẽ bằng 100% của phần tử cha */
+  height: auto; /* Chiều cao của hình ảnh sẽ tự động điều chỉnh để giữ nguyên tỷ lệ */
+}
+/* code css tạo đường chéo book your */
+.carousel-caption::before {
+  
+
+    content: "";
+    position: absolute;
+    top: -50%;
+    bottom: 0%;
+    left: 90%;
+    width: 200px;
+    height: 220%;
+    transform: skew(-30deg);
+    background-color: #ff9900;
+    border-right: 4px solid transparent;
+  
+  }
+  
+  .section-onlinecar .img-car {
+    position: absolute;
+    width: 350px;
+    right: -250px;
+    top: -100px;
+  }
+
+
+
+
+
+
 /* nút button */
-.nav-bar {
+/* .nav-bar {
   display: flex;
   justify-content: center;
   align-items: center;
  
-}
+} */
 /* code đường chéo xe ô tô BOOK YOU TAXI */
-.section-onlinecar {
+/* .section-onlinecar {
   position: relative;
   overflow: hidden;
 }
@@ -249,10 +312,10 @@
   width: 650px;
   right: -150px;
   top: -100px;
-}
+} */
 
 /* nút button Book you tatxi */
-.my-button {
+/* .my-button {
   background-color: #da7b0f;
   border: none;
   color: rgb(240, 240, 228);
@@ -268,7 +331,7 @@
 
 .my-heading {
   color: rgb(15, 15, 19);
-}
+} */
 
 /*  Code chi cột về chúng tôi*/
 .container {
@@ -560,6 +623,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 .cart-item {
