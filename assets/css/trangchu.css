@@ -245,6 +245,7 @@
 .carousel-caption h1 {
   margin-bottom: 20px;
   color: #faf1f1;
+  text-align: start;
 }
 .carousel-caption .img-car {
   width: 150%; /* Kích thước chiều rộng của hình ảnh sẽ bằng 100% của phần tử cha */
@@ -275,7 +276,36 @@
   .carousel-caption p {
     color: white; /* Màu chữ trắng */
     font-size: 18px; /* Kích thước chữ 18px */
+    text-align: start;
   }
+
+
+
+  .btn-view-more {
+    float: left;
+    right: 30%;
+    width: 30%;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange; /* Màu cam */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    /* position: absolute; */
+ 
+
+   
+  }
+  
+  .btn-view-more:hover {
+    background-color: darkorange; /* Màu cam tối khi hover */
+  }
+
+
+
 /* nút button */
 /* .nav-bar {
   display: flex;
