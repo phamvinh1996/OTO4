@@ -273,6 +273,14 @@
   }
 
 
+
+
+
+
+  .carousel-caption p {
+    color: white; /* Màu chữ trắng */
+    font-size: 18px; /* Kích thước chữ 18px */
+  }
 /* nút button */
 /* .nav-bar {
   display: flex;
