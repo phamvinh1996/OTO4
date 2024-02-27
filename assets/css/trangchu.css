@@ -290,12 +290,7 @@
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
-
-    /* position: absolute; */
- 
-
-   
+    font-size: 16px;  
   }
   
   .btn-view-more:hover {
