@@ -254,8 +254,6 @@
 }
 /* code css tạo đường chéo book your */
 .carousel-caption::before {
-  
-
     content: "";
     position: absolute;
     top: -50%;
