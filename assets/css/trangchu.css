@@ -248,8 +248,10 @@
   text-align: start;
 }
 .carousel-caption .img-car {
-  width: 150%; /* Kích thước chiều rộng của hình ảnh sẽ bằng 100% của phần tử cha */
-  height: auto; /* Chiều cao của hình ảnh sẽ tự động điều chỉnh để giữ nguyên tỷ lệ */
+  left: 300px;
+  position: relative;
+  bottom: 220px;
+  width: 500px;
 }
 /* code css tạo đường chéo book your */
 .carousel-caption::before {

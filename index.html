@@ -6,104 +6,104 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Trang chủ</title>
-  <link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/trangchu.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 
 
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 <body>
   <header>
-  
-      <div class="header-top">
-        <div class="navbar-left">
-          <span class="navbar-text">Taxi liên tỉnh giá tốt</span>
+
+    <div class="header-top">
+      <div class="navbar-left">
+        <span class="navbar-text">Taxi liên tỉnh giá tốt</span>
+      </div>
+      <div class="navbar-right">
+        <a class="navbar-link" href="#">Liên hệ</a>
+        <a class="navbar-link" href="#">FAQ</a>
+        <a class="navbar-icon" href="https://facebook.com">
+          <img src="https://png.pngtree.com/png-clipart/20190613/original/pngtree-facebook-icon-png-image_3566129.png"
+            alt="Facebook">
+        </a>
+        <a class="navbar-icon" href="https://youtube.com">
+          <img src="https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png" alt="YouTube">
+        </a>
+      </div>
+    </div>
+    <!-- Tạo Logo-->
+    <div class="container">
+      <div class="logo-container">
+        <img src="https://web307.webvungtau.com/wp-content/uploads/2023/04/logo-dark.png" alt="Logo" class="logo">
+      </div>
+      <div class="contact-info">
+        <div class="contact-item">
+          <a href="tel:0123456789"><img src="https://image.pngaaa.com/717/5210717-middle.png" alt="Phone"
+              class="icon"></a>
+          <span class="text">Hotline: 0123456789</span>
         </div>
-        <div class="navbar-right">
-          <a class="navbar-link" href="#">Liên hệ</a>
-          <a class="navbar-link" href="#">FAQ</a>
-          <a class="navbar-icon" href="https://facebook.com">
-            <img src="https://png.pngtree.com/png-clipart/20190613/original/pngtree-facebook-icon-png-image_3566129.png"
-              alt="Facebook">
-          </a>
-          <a class="navbar-icon" href="https://youtube.com">
-            <img src="https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png" alt="YouTube">
-          </a>
+        <div class="contact-item">
+          <a href="mailto:example@example.com"><img
+              src="https://tse2.mm.bing.net/th?id=OIP.iN2rXKsUiaIcLFFd7D2CbQHaHa&pid=Api&P=0&h=220" alt="Email"
+              class="icon"></a>
+          <span class="text">Email: example@example.com</span>
+        </div>
+        <div class="contact-item">
+          <a href="https://maps.google.com"><img
+              src="https://theme.hstatic.net/200000541929/1000893325/14/hdc_icon3.png?v=681" alt="Address"
+              class="icon"></a>
+          <span class="text">Address: 123 Example St, City, Country</span>
         </div>
       </div>
-      <!-- Tạo Logo-->
-       <div class="container">
-        <div class="logo-container">
-          <img src="https://web307.webvungtau.com/wp-content/uploads/2023/04/logo-dark.png" alt="Logo" class="logo">
+    </div>
+    <!-- Tạo thanh nav CHÍNH-->
+    <nav class="navbar1">
+      <div class="navbar">
+        <div>
+          <a href="#" class="active">Trang chủ</a>
+          <a href="#">Sản phẩm</a>
+          <a href="Dichvu.html">Dịch vụ</a>
+          <a href="#">Giới thiệu</a>
+          <a href="#">Liên hệ</a>
         </div>
-        <div class="contact-info">
-          <div class="contact-item">
-            <a href="tel:0123456789"><img
-                src="https://image.pngaaa.com/717/5210717-middle.png" alt="Phone"
-                class="icon"></a>
-            <span class="text">Hotline: 0123456789</span>
-          </div>
-          <div class="contact-item">
-            <a href="mailto:example@example.com"><img
-                src="https://tse2.mm.bing.net/th?id=OIP.iN2rXKsUiaIcLFFd7D2CbQHaHa&pid=Api&P=0&h=220" alt="Email"
-                class="icon"></a>
-            <span class="text">Email: example@example.com</span>
-          </div>
-          <div class="contact-item">
-            <a href="https://maps.google.com"><img
-                src="https://theme.hstatic.net/200000541929/1000893325/14/hdc_icon3.png?v=681"
-                alt="Address" class="icon"></a>
-            <span class="text">Address: 123 Example St, City, Country</span>
-          </div>
-        </div>
-      </div> 
-      <!-- Tạo thanh nav CHÍNH-->
-      <nav class="navbar1">
-        <div class="navbar">
-          <div>
-            <a href="#" class="active">Trang chủ</a>
-            <a href="#">Sản phẩm</a>
-            <a href="Dichvu.html">Dịch vụ</a>
-            <a href="#">Giới thiệu</a>
-            <a href="#">Liên hệ</a>
-          </div>
-          <div class="nav-right">
-            <div class="search-container">
-              <a href="#" class="search-icon" id="searchBtn"></a>
-              <div id="searchContainer" style="display: none;">
-                <form action="/search" method="get" class="search-form">
-                  <input type="text" id="search-input" name="keyword" class="search-input" placeholder="Nhập từ khóa">
-                  <button type="submit" id="search-button" class="search-button">Tìm kiếm</button>
-                </form>
-              </div>
+        <div class="nav-right">
+          <div class="search-container">
+            <a href="#" class="search-icon" id="searchBtn"></a>
+            <div id="searchContainer" style="display: none;">
+              <form action="/search" method="get" class="search-form">
+                <input type="text" id="search-input" name="keyword" class="search-input" placeholder="Nhập từ khóa">
+                <button type="submit" id="search-button" class="search-button">Tìm kiếm</button>
+              </form>
             </div>
-            <div class="icon-container">
-              <img src="https://www.clipartmax.com/png/middle/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png"
-                alt="Icon" class="icon">
-              <div id="carInfo" class="car-info">
-                <img src="https://web307.webvungtau.com/wp-content/uploads/2023/04/logo-light.png" alt="Car Logo"
-                  class="car-logo">
-                <p class="car-size"> Với phương châm "Khách hàng là tất cả", "An toàn là trên hết". Chúng tôi luôn hướng
-                  tới
-                  tiêu chí chất lượng, an toàn và chuyên nghiệp</p>
-              </div>
+          </div>
+          <div class="icon-container">
+            <img src="https://www.clipartmax.com/png/middle/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png"
+              alt="Icon" class="icon">
+            <div id="carInfo" class="car-info">
+              <img src="https://web307.webvungtau.com/wp-content/uploads/2023/04/logo-light.png" alt="Car Logo"
+                class="car-logo">
+              <p class="car-size"> Với phương châm "Khách hàng là tất cả", "An toàn là trên hết". Chúng tôi luôn hướng
+                tới
+                tiêu chí chất lượng, an toàn và chuyên nghiệp</p>
             </div>
           </div>
         </div>
-        <div class="contact">
-          Liên Hệ
-        </div>
-      </nav>
+      </div>
+      <div class="contact">
+        Liên Hệ
+      </div>
+    </nav>
   </header>
   </div>
 
-  <!-- TẠO ảnh nền  book your taxi  --> 
+  <!-- TẠO ảnh nền  book your taxi  -->
 
-    <!-- <div class="section-onlinecar">
+  <!-- <div class="section-onlinecar">
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
@@ -112,11 +112,11 @@
           -->
 
 
-        <!-- tao chuyen dong -->
-   
+  <!-- tao chuyen dong -->
 
-      
-             <!-- <div class="nav-bar">
+
+
+  <!-- <div class="nav-bar">
             <div class="nav-prev-next">
               <button class="nav-prev">Prev</button>
               <button class="nav-next">Next</button>
@@ -136,49 +136,56 @@
   <br>
   <br>   -->
 
-   
-<!--  dòng code html Book you-->
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg" class="d-block w-100" alt="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg" class="d-block w-100" alt="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <div class="carousel-caption">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <h1>Book your taxi from <br> anywhare today</h1>
-          <p> Everything your taxi business needs is already<br> here! Ridek made for taxi
-            service companies!</p>
+
+  <!--  dòng code html Book you-->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div>
+            <h1>Book your taxi from <br> anywhare today</h1>
+            <p> Everything your taxi business needs is already<br> here! Ridek made for taxi
+              service companies!</p>
             <a class="btn-view-more" href="#">Xem thêm</a>
+          </div>
+          <div>
+            <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/car-1.png" class="img-car" alt="">
+          </div>
         </div>
-        <div class="col-sm-4">
-          <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/car-1.png" class="img-car" alt="">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div>
+            <h1>Book your taxi from <br> anywhare today</h1>
+            <p> Everything your taxi business needs is already<br> here! Ridek made for taxi
+              service companies!</p>
+            <a class="btn-view-more" href="#">Xem thêm</a>
+            <div>
+              <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/car-1.png" class="img-car" alt="">
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-</div>
-</div>
-<br>
-<br>
+
+  </div>
+  </div>
+  </div>
+  <br>
+  <br>
   <!--  -->
   <!-- TẠO chia cột Về chúng tôi -->
 
@@ -343,7 +350,7 @@
                     <div class="invalid-tooltip">
                       Chọn Giờ
                     </div>
-                    </div>
+                  </div>
                   <button class="btn btn-primary" type="submit"> Đặt Xe</button>
               </form>
             </div>
@@ -439,15 +446,16 @@
               class="phone-image">
             <img class="xeoto" src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/taxi.png" alt="Search"
               style="width: 650px; height: 290px;">
-            <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/charecter.png" alt="Overlay Image" class="overlay-image people">
+            <img src="https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/charecter.png" alt="Overlay Image"
+              class="overlay-image people">
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<br>
-<br>
+  </div>
+  <br>
+  <br>
   <!--  -->
   <!-- Hơn 1000 -->
   <div class="section-online-Hon1000">
@@ -521,13 +529,14 @@
         <div class="col-sm-7">
           <h1 class="title"> Call Us Now Book Your Taxi
             For Your Next Ride!</h1>
-            <p class="white-text">We successfully cope with tasks of varying complexity,
-              guarantees and regularly master new technologies.</p>
-        <p class="icon-text">
-          <img src="https://as1.ftcdn.net/v2/jpg/00/56/74/00/1000_F_56740082_jpC8hHg062qnJdlHlbE5KVxZ4HFcCAvm.jpg" alt="Icon" />
-        Hotline<br>
-           0909 123 456
-        </p>
+          <p class="white-text">We successfully cope with tasks of varying complexity,
+            guarantees and regularly master new technologies.</p>
+          <p class="icon-text">
+            <img src="https://as1.ftcdn.net/v2/jpg/00/56/74/00/1000_F_56740082_jpC8hHg062qnJdlHlbE5KVxZ4HFcCAvm.jpg"
+              alt="Icon" />
+            Hotline<br>
+            0909 123 456
+          </p>
         </div>
         <div class="col-sm-5">
           <div class="form-group">
@@ -626,7 +635,7 @@
               <input type="email" placeholder="Nhập email của bạn">
               <button type="submit">Đăng ký</button>
             </form>
-            </div>
+          </div>
           <div class="icon-car">
             <img src=" https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/truck-3.png" alt="Car 1"
               class='car1'>
@@ -635,25 +644,18 @@
             <img src=" https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/truck-1.png" alt="Car 3"
               class='car3'>
           </div>
-          </div>
-          </div>
-          <div class="copyright-wrap">
-          <div class="container">
-            <p> Thiết kế 123web.vn</p>
-          </div>
+        </div>
+      </div>
+      <div class="copyright-wrap">
+        <div class="container">
+          <p> Thiết kế 123web.vn</p>
+        </div>
   </footer>
 
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-  <script src="./assets/lib/jquery/jquery.min.js"></script>
-  <script src="./assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/Trangchu.js"></script>
 </body>
 
