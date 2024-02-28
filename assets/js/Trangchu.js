@@ -155,5 +155,3 @@ cars.forEach((car, index) => {
 
 
 
-
-
