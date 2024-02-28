@@ -144,9 +144,11 @@ cars.forEach((car, index) => {
 
 
 
-$('.single-item-rtl').slick({
-  rtl: true
-});
+ $('.single-item-rtl').slick({
+   rtl: true
+ });
+
+
 
 
 
