@@ -283,7 +283,7 @@
 /* button */
   .btn-view-more {
     float: left;
-    right: 30%;
+    left: 30%;
     width: 30%;
     height: 50px;
     display: inline-block;
@@ -293,6 +293,8 @@
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;  
+
+    position: relative;
   }
   
   .btn-view-more:hover {
@@ -322,18 +324,20 @@
 .carousel-caption h1 {
   
   font-weight: bold;
-  right: 50%;
+  left: 60%;
   margin-bottom: 20px;
   animation: slide-up 0.5s ease forwards;
 
-  text-align: right;
- 
+  text-align: text;
+  position: relative;
 }
 
 .carousel-caption p {
   font-size: 18px;
   animation: slide-up 0.5s ease 0.3s forwards;
-  text-align: right;
+  text-align: text;
+  position: relative;
+  left: 60%;
 }
 
 .carousel-caption .btn-view-more {
@@ -375,6 +379,82 @@
     opacity: 1;
   }
 }
+
+
+
+/* code css chỉnh nút button book */
+
+
+.button-carousel{
+  position: relative;
+  bottom: 10px;
+}
+
+ 
+ .carousel-control-prev,
+.carousel-control-next { */
+   position : absolute;
+   bottom: 20px; /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
+  left: 100px; /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
+  background-color: black; /* Đặt màu nền của nút là trắng */
+  border: none; /* Xóa viền của nút */
+  color: black ; /* Đặt màu chữ là đen */
+  padding: 10px; /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+  position: fixed;
+  top: -180px; 
+}   
+
+/*  code css màu nút button book*/
+.button-carousel button {
+  background-color: black; /* Đặt màu nền của nút là đen */
+  color: white; /* Đặt màu chữ là trắng */
+  border: none; /* Xóa viền của nút */
+  padding: 10px; /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+}
+
+.button-carousel .carousel-control-prev-icon,
+.button-carousel .carousel-control-next-icon {
+  color: white; /* Đặt màu của biểu tượng là trắng */
+}
+
+.button-carousel button:hover {
+  background-color: darkgray; /* Thay đổi màu nền của nút khi di chuột qua */
+}
+
+.button-carousel button:focus {
+  outline: none; /* Xóa viền xung quanh nút khi được tập trung */
+}
+
+/* clip path cắt ảnh boook you */
+.carousel-caption::after {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 80px;
+  top: 55%;
+  right: 80%;
+  background-color: #f4f5f8;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* nút button */
 /* .nav-bar {
   display: flex;
