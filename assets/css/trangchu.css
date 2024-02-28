@@ -182,39 +182,6 @@
 
 /* Tạo ảnh bìa chèn ô tô BOOK YOUR TAXI */
 
-/*  */
-
-
-  /* .section-onlinecar {
-  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  padding: 200px 0;
-}
-
-  .nav-bar {
-  position: absolute;
-  bottom: 20px;
-  top: 240px;
-  width: 130%;
-  height: 100%;
-  left: -75%;
-  transform: translateX(-5%);
-  background-color: white;
-  padding: 30px;
-  z-index: 9999;
-}
-
-.nav-prev-next {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.nav-prev, .nav-next {
-  margin-right: 50px;
-}        */
-
 /* dùng thư viện di chuyển trang book you */
 .carousel {
   width: 100%;
@@ -300,8 +267,6 @@
   .btn-view-more:hover {
     background-color: darkorange; /* Màu cam tối khi hover */
   }
-
-
 /*  */
 /* code css chuyển động qua trang book */
 .carousel-caption {
