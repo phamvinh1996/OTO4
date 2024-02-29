@@ -652,7 +652,7 @@ p {
   border-radius: 8px;
 }
 
-.card-banner {} 
+ .card-banner {} 
 
  .car-in-card { 
   width: 150%;
@@ -685,8 +685,77 @@ p {
 
 .button:hover {
   background-color: rgb(190, 97, 17);
-}  
+}   
 
+
+
+
+
+
+/* tạo css nút chuyển trang  dịch vụ nổi bật*/
+ .card-navigation {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-70%);
+ 
+
+}
+
+/* .prev-btn,
+.next-btn {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-90%);
+  padding: 8px 16px;
+  background-color: #555;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #333;
+}  */
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  background-color: #555;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #333;
+}
+
+/*  */
+
+
+
+
+
+
+
+	
 /*  */
 /* ĐẶT XE NHANH */
 
@@ -1308,7 +1377,7 @@ button[type="submit"] {
 .card-image2 {
   position: absolute;
   bottom: -26px;
-  right: -13px;
+  left: 108px;
   width: 190px;
   transition: 0.5s all;
   transform: scale(1);

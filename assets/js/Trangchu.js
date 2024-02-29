@@ -151,6 +151,13 @@ cars.forEach((car, index) => {
 
 
 
+/* di chuyển trang dịch vụ nổi bât */
+  $('.multiple-items').slick({
+    infinite: true,
+   slidesToShow: 3,
+   slidesToScroll: 3
+  });
+
 
 
 

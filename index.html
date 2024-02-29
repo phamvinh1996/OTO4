@@ -18,6 +18,25 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+
+
+
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <body>
   <header>
 
@@ -201,8 +220,8 @@
   </div>
   </div>
   <!--  CART DỊCH VỤ NỖI BẬT -->
-  <div class="container cart-service">
-    <div class="card">
+  <div class="container cart-service slider ">
+    <div class="card ">
       <div class="card-top">
         <img class="card-image1" src="https://web307.webvungtau.com/wp-content/uploads/2023/04/service-4.jpg"
           alt="Product Image">
@@ -240,10 +259,25 @@
         <p>Tự hào là đơn vị taxi giá rẻ, chuyên nghiệp, giúp bạn đi đến nơi về đến chốn.</p>
         <a class="nutxemthem">Xem Thêm</a>
       </div>
+</div>
+
+    <div class="card-navigation">
+      <button class="prev-btn">Previous</button>
+      <button class="next-btn">Next</button>
     </div>
   </div>
-  </div>
+
   <br>
+
+
+
+
+
+
+
+
+
+  <!--  -->
   <!-- ĐẶT XE NHANH -->
   <div class="section-online-booking">
     <div class="container">
@@ -624,6 +658,46 @@
 
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick({
+        slidesToShow: 3, // Hiển thị 3 slide cùng lúc
+        slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
+        autoplay: true, // Tự động chạy slide
+        autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
+        prevArrow: '<button class="slick-prev">Previous</button>', // Nút điều khiển slide trước
+        nextArrow: '<button class="slick-next">Next</button>', // Nút điều khiển slide kế tiếp
+        responsive: [
+          {
+            breakpoint: 768, // Tùy chỉnh breakpoint cho responsive
+            settings: {
+              slidesToShow: 2, // Hiển thị 2 slide ở màn hình có độ rộng từ 768px trở xuống
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1, // Hiển thị 1 slide ở màn hình có độ rộng từ 576px trở xuống
+            }
+          }
+        ]
+      });
+    //   // Bắt sự kiện click cho nút "Previous"
+    //   $('.prev-btn').click(function () {
+    //     $('.slider').slick('slickPrev'); // Di chuyển đến slide trước
+    //   });
+
+    //   // Bắt sự kiện click cho nút "Next"
+    //   $('.next-btn').click(function () {
+    //     $('.slider').slick('slickNext'); // Di chuyển đến slide kế tiếp
+    //   });
+    // });
 
 
 
@@ -635,6 +709,30 @@
 
 
 
+
+
+  // Bắt sự kiện click cho nút "Previous"
+  $('.prev-btn').click(function(){
+    $('.slider').slick('slickPrev'); // Di chuyển đến slide trước
+  });
+
+  // Bắt sự kiện click cho nút "Next"
+  $('.next-btn').click(function(){
+    $('.slider').slick('slickNext'); // Di chuyển đến slide kế tiếp
+  });
+});
+
+  </script>
+
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.multiple-items').slick({
+      });
+    });
+  </script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
